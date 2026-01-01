@@ -205,9 +205,9 @@ export default function NewYearExperience() {
       // Face 4 (bottom, y-): 4 dots corners
       { face: [0, -0.41, 0], dots: [[-0.2, 0, 0.2], [0.2, 0, 0.2], [-0.2, 0, -0.2], [0.2, 0, -0.2]], rotation: [-Math.PI/2, 0, 0] },
       // Face 5 (right, x+): 5 dots (4 corners + center)
-      { face: [0.41, 0, 0], dots: [[-0.2, 0.2, 0], [0.2, 0.2, 0], [-0.2, -0.2, 0], [0.2, -0.2, 0], [0, 0, 0]], rotation: [0, Math.PI/2, 0] },
+      { face: [0.41, 0, 0], dots: [ [0, 0, 0], [0,0.2,0.2],[0,0.2,-0.2],[0,-0.2,0.2],[0,-0.2,-0.2]], rotation: [0, Math.PI/2, 0] },
       // Face 6 (left, x-): 6 dots (2 columns of 3)
-      { face: [-0.41, 0, 0], dots: [[-0.2, 0.25, 0], [-0.2, 0, 0], [-0.2, -0.25, 0], [0.2, 0.25, 0], [0.2, 0, 0], [0.2, -0.25, 0]], rotation: [0, -Math.PI/2, 0] },
+      { face: [-0.41, 0, 0], dots: [[0,0.2,0.2],[0,0.2,0],[0,0.2,-0.2],[0,-0.2,0.2],[0,-0.2,0],[0,-0.2,-0.2]], rotation: [0, -Math.PI/2, 0] },
     ];
 
     faceConfigs.forEach(config => {
